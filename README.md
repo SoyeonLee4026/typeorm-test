@@ -26,5 +26,5 @@ QA_DB_NAME=qa_test_db
 
 ```bash
 # QA 테스트 데이터 생성
-npm run qa:seed
+./qa-seed.sh
 ```
