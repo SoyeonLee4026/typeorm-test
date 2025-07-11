@@ -1,6 +1,6 @@
-import { UserSeeder } from "../scripts/user.seeder";
 import { DepartmentSeeder } from "./department.seeder";
 import { OrganizationSeeder } from "./organization.seeder";
+import { UserSeeder } from "./user.seeder";
 
 export class DatabaseSeeder {
   private userSeeder: UserSeeder;

@@ -1,7 +1,7 @@
 #!/usr/bin/env ts-node
 import "reflect-metadata";
-import { QaDataSource } from "../seeds/data-source";
 import { DatabaseSeeder } from "../seeds/database.seeder";
+import { QaDataSource } from "./data-source";
 
 async function main() {
   console.log("🧪 QA 테스트 데이터 생성 시작...");

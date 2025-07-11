@@ -1,6 +1,6 @@
 import { Repository } from "typeorm";
+import { QaDataSource } from "../scripts/data-source";
 import { Organization } from "../src/entity/organization.entity";
-import { QaDataSource } from "./data-source";
 
 export class OrganizationSeeder {
   private organizationRepository: Repository<Organization>;
