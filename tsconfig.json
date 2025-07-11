@@ -10,5 +10,5 @@
     "skipLibCheck": true,
     "strictPropertyInitialization": false
   },
-  "include": ["apps/**/*.ts"]
+  "include": ["**/*.ts"]
 }

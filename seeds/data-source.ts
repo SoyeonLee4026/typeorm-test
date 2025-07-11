@@ -1,8 +1,8 @@
 import "reflect-metadata";
 import { DataSource } from "typeorm";
-import { Department } from "../../sarcocloud/src/entity/department.entity";
-import { Organization } from "../../sarcocloud/src/entity/organization.entity";
-import { User } from "../../sarcocloud/src/entity/user.entity";
+import { Department } from "../src/entity/department.entity";
+import { Organization } from "../src/entity/organization.entity";
+import { User } from "../src/entity/user.entity";
 
 export const QaDataSource = new DataSource({
   type: "postgres",

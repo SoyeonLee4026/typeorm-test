@@ -1,5 +1,5 @@
 import { Repository } from "typeorm";
-import { Organization } from "../../sarcocloud/src/entity/organization.entity";
+import { Organization } from "../src/entity/organization.entity";
 import { QaDataSource } from "./data-source";
 
 export class OrganizationSeeder {

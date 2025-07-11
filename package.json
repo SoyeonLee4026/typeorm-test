@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "qa:seed": "ts-node apps/qa/scripts/qa-seed.ts",
+    "qa:seed": "ts-node scripts/qa-seed.ts",
     "build": "tsc",
-    "start": "node dist/apps/qa/scripts/qa-seed.js"
+    "start": "node scripts/qa-seed.js"
   },
   "keywords": [],
   "author": "",

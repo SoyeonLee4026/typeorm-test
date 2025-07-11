@@ -1,6 +1,6 @@
 import { Repository } from "typeorm";
-import { Department } from "../../sarcocloud/src/entity/department.entity";
-import { Organization } from "../../sarcocloud/src/entity/organization.entity";
+import { Department } from "../src/entity/department.entity";
+import { Organization } from "../src/entity/organization.entity";
 import { QaDataSource } from "./data-source";
 
 export class DepartmentSeeder {
